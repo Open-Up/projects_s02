@@ -1,5 +1,9 @@
 # Second semester projects
 
+## Online presentation
+
+Here is an [online presentation for Open-Up students](https://rawgit.com/Open-Up/projects_s02/master/presentation/index.html).
+
 ## Student modification
 
 Students are expected to modify this document :
