@@ -31,19 +31,19 @@ The project planning is the following :
 
 #### Independency
 
-0/3 : Needs strong help technically. Do not understand the subject.
-1/3 : Frequently asks for help
-2/3 : Is independence
-3/3 : Even takes initiatives
+ - 0/3 : Needs strong help technically. Do not understand the subject.
+ - 1/3 : Frequently asks for help
+ - 2/3 : Is independence
+ - 3/3 : Even takes initiatives
 
 #### Results
 
-1 point on punctuality
-1 point on working demonstration
+ - 1 point on punctuality
+ - 1 point on working demonstration
 
-0/3 : No results
-1/3 : Partial results
-3/3 : Complete results
+ - 0/3 : No results
+ - 1/3 : Partial results
+ - 3/3 : Complete results
 
 1 bonus point : Demonstrate non asked interesting capabilities
 
@@ -51,18 +51,18 @@ The project planning is the following :
 
 This evaluation point is individual
 
-1 point on speech time (should be ~15 minutes)
-1 point on oral fluency ( gests ? Speech fluidity ? Reads his notes ? )
-2 points on english : we should easily understand what is said
-2 points : Student should be able to present technically his project
-2 points : Student develops his works
-1 points on slides (look and integration with speech)
+ - 1 point on speech time (should be ~15 minutes)
+ - 1 point on oral fluency ( gests ? Speech fluidity ? Reads his notes ? )
+ - 2 points on english : we should easily understand what is said
+ - 2 points : Student should be able to present technically his project
+ - 2 points : Student develops his works
+ - 1 points on slides (look and integration with speech)
 
 #### Management
 
-1 point on weekly reports
-1 point on Trello backlog
-1 point on Trello tasks 
+ - 1 point on weekly reports
+ - 1 point on Trello backlog
+ - 1 point on Trello tasks 
 
 ## Orders
 
@@ -215,4 +215,130 @@ Boddy :
 
 ## List of projects
 
+ 1. Migration from Zimbra to OBM : provide scripts
 
+Several times a year, Linagora System Administration teams should handle migration of their clients from Zimbra to OBM. As it remains a not so common task, it has not been automated yet. Alexandra Chapellon, at the head of the franch integration team proposes you to automate this task. You should install Zimbra software stack (https://www.zimbra.com/documentation/zimbra-collaboration-open-source/) and populate it with contacts, mails, and events. Then install the OBM software stack (http://obm.org/content/install-obm-3-debian-wheezy). You should the write script to automate migration, and provide documentation to explain how to do it to the French team. You should provide automated and unattended extraction tools that produce ics files for calendar data, vcf for contacts, and make sure imapsync is still the  way to go when migrating emails. You will be supervised by Alexandre Chapellon.
+
+Keywords : Migration, OBM, Zimbra, scripting
+
+ 2. Document single james set up + mailet configuration
+
+JAMES (Java Apache Mail Enterprise Server) is Linagora new e-mail server for OpenPaas. As todays main contributor, we would like to develop community around JAMES. One big obstacle we face is the lack of "getting started" session providing simple setup for a production ready JAMES, for someone that do not know anything about mail servers. In this project, you should configure a JAMES server so that it can be defended against Spam, Viruses, is not an open relay, verify clients authenticity, and is trusted by other mail server. You should explain in depth your choices, diagnose missing features for the JAMES team, and write some documentation. You will be supervised by Benoit Tellier from JAMES team.
+
+Keywords : SMTP, Spam, Viruses, SMTP relay, JAMES
+
+ 3. Set up LDAP authentication on James + provide quota reading from LDAP
+
+JAMES (Java Apache Mail Enterprise Server) is Linagora new e-mail server for OpenPaas. JAMES team at Linagora only used JAMES with locally stored user. We would llike you to deploy a James server using Linagora LDAP for authentication. You will provide your configuration, and write some Java tests for this feature. Finaly, you might contribute a plugin allowing to read user quotas from a LDAP, and tests for this feature. You will be supervised by Benoit Tellier from JAMES team.
+
+Keywords : JAMES, LDAP, IMAP quotas
+
+ 4. Document production replicated settings for OpenPaas
+
+OpenPaas is a brand new Linagora product. It is an enterprise social network, with mail, contact and calendar capabilities. It uses a lot of middle-ware, for instance a MongoDB database, Redis for messages, ElasticSearch as a search engine, JAMES for mails, Cassandra for JAMES persistence. Today, the OpenPaas team lacks documentation on production ready settings for these middlewares. You are expected to experiment with these middle-ware, and provide a configuration for each one of them that is production ready, efficient, and supporting distributed environments. You are also expected to do some administrative tasks like adding and removing nodes, perform repairs, and other classical maintenance tasks. You will be supervised by a developer from OpenPass team, as well as Benoit Tellier on James part.
+
+Keywords : OpenPaas, MongoDB, Redis, ElasticSearch, JAMES, Cassandra
+
+ 5. Vtiger CRM
+
+You will be responsible to experiment Vtiger CRM at Linagora. You will deploy it, test it, introduce it to Linagora revevant teams and finaly migrate data from our previous CRM engine. Your instalation should use Linagora LDAP for authentication. You will be supervised by Guilhem Valentin.
+
+Keywords : VtigerCRM, Nginx, OpenLDAP
+
+
+ 6. OBM Linshare and Jabber for Open-Up team
+
+On a server given to your disposal, you will install a collaborative plateform for the Open Up students. It will be composed of a LDAP for authentication, of OBM collaborative plateform. It will rely on Jabber for instant messaging, and people will be able to share files using LinShare software. You will gain the openup.linagora.com domain name delegated and you will have to configure it for your needs.
+
+Keywords : Mail, DNS, OBM, LinShare, Jabber
+
+ 7. Script for deploying monitoring probes
+
+
+
+ 8. Administrative UI for visualizing OBM logs
+
+
+
+ 9.  Mail server
+
+You are the network and the system administrator of a small company. You have to provide a mail service to employees. Their informations (names, passwords) are on a LDAP server. 
+You have to set the SMTP server with Postfix, the webmail service with Roundcube and the IMAP mailboxes server Cyrus. You are also expected to configure SpamAssasin anti-spam server and ClamAV anti-virus. Your infrastucture should remain available in the case of single server failure. So you should configure load balancing, as well as distributed storage.
+
+Keywords : Network addressing, name resolution, OpenLDAP, Postfix, Cyrus IMAP, RoudCube, High availability, file system replication, load balancing, shared IPs.
+
+ 10. OBM VOIP
+
+
+
+ 11. Unintended instalation
+
+
+
+ 12. SASL plugin for SAML
+
+
+
+## Teams
+
+2 or 3 people by team ...
+
+ 1. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 2. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 3. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 4. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 5. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 6. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 7. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 8. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 9. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
+
+ 10. Team name :
+
+ - Members :
+ - Trello backlog : 
+ - Trello tasks : 
