@@ -98,7 +98,7 @@ We want to have two sections :
 
 ### Workflow
 
-You will maintain two [Trello]() boards : 
+You will maintain two [Trello](https://trello.com/) boards : 
 
  - One for your backlog
  - One for your tickets
