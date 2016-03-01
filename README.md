@@ -1,5 +1,23 @@
 # Second semester projects
 
+## Student modification
+
+Students are expected to modify this document :
+
+ - in order to register themselves in a team
+ - in order to register their team in a project
+
+To do so, please **fork** this project. **Watch** this project too, it is going to be important for solving conflicts
+
+When it is done, make your modifications. Then commit it and open a pull request.
+
+ - I will instantly validate teams.
+ - I will give 1 day for other people to contest your project choice. You then have to discuss in comments. I will then merge when an agreement is met.
+
+I advice to make two separated PRs for teams and projects.
+
+Other advice : Do not all register as team 1. ;-)
+
 ## Second semester project objectives
 
  - Being able to report to a manager about my work following a method
@@ -103,7 +121,7 @@ You will maintain two [Trello](https://trello.com/) boards :
  - One for your backlog
  - One for your tickets
 
-You will do weekly summaries to Benoit Tellier about your weekly work. Ree the following sections for more details.
+You will do weekly summaries to Benoit Tellier (btellier[at]linagora.com) about your weekly work. Ree the following sections for more details.
 
 #### Backlog
 
@@ -221,11 +239,15 @@ Several times a year, Linagora System Administration teams should handle migrati
 
 Keywords : Migration, OBM, Zimbra, scripting
 
+Team : 
+
  2. Document single james set up + mailet configuration
 
 JAMES (Java Apache Mail Enterprise Server) is Linagora new e-mail server for OpenPaas. As todays main contributor, we would like to develop community around JAMES. One big obstacle we face is the lack of "getting started" session providing simple setup for a production ready JAMES, for someone that do not know anything about mail servers. In this project, you should configure a JAMES server so that it can be defended against Spam, Viruses, is not an open relay, verify clients authenticity, and is trusted by other mail server. You should explain in depth your choices, diagnose missing features for the JAMES team, and write some documentation. You will be supervised by Benoit Tellier from JAMES team.
 
 Keywords : SMTP, Spam, Viruses, SMTP relay, JAMES
+
+Team : 
 
  3. Set up LDAP authentication on James + provide quota reading from LDAP
 
@@ -233,11 +255,15 @@ JAMES (Java Apache Mail Enterprise Server) is Linagora new e-mail server for Ope
 
 Keywords : JAMES, LDAP, IMAP quotas
 
+Team : 
+
  4. Document production replicated settings for OpenPaas
 
 OpenPaas is a brand new Linagora product. It is an enterprise social network, with mail, contact and calendar capabilities. It uses a lot of middle-ware, for instance a MongoDB database, Redis for messages, ElasticSearch as a search engine, JAMES for mails, Cassandra for JAMES persistence. Today, the OpenPaas team lacks documentation on production ready settings for these middlewares. You are expected to experiment with these middle-ware, and provide a configuration for each one of them that is production ready, efficient, and supporting distributed environments. You are also expected to do some administrative tasks like adding and removing nodes, perform repairs, and other classical maintenance tasks. You will be supervised by a developer from OpenPass team, as well as Benoit Tellier on James part.
 
 Keywords : OpenPaas, MongoDB, Redis, ElasticSearch, JAMES, Cassandra
+
+Team : 
 
  5. Vtiger CRM
 
@@ -245,6 +271,7 @@ You will be responsible to experiment Vtiger CRM at Linagora. You will deploy it
 
 Keywords : VtigerCRM, Nginx, OpenLDAP
 
+Team : 
 
  6. OBM Linshare and Jabber for Open-Up team
 
@@ -252,13 +279,19 @@ On a server given to your disposal, you will install a collaborative plateform f
 
 Keywords : Mail, DNS, OBM, LinShare, Jabber
 
+Team : 
+
  7. Script for deploying monitoring probes
 
 
 
+Team : 
+
  8. Administrative UI for visualizing OBM logs
 
 
+
+Team : 
 
  9.  Mail server
 
@@ -271,13 +304,19 @@ Keywords : Network addressing, name resolution, OpenLDAP, Postfix, Cyrus IMAP, R
 
 
 
+Team : 
+
  11. Unintended instalation
 
 
 
+Team : 
+
  12. SASL plugin for SAML
 
 
+
+Team : 
 
 ## Teams
 
