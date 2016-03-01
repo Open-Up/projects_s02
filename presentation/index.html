@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Up</title>
+
+		<meta name="description" content="Open Up : Lesson 2 DNS servers">
+		<meta name="author" content="Tellier Benoit">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+
+<section>
+<img data-src="img/large.png"><br/>
+<img data-src="img/openup.png">
+
+<h2>Semester projects</h2>
+
+<p>Speaker : <a>Benoit Tellier</a></p>
+
+<p><small>
+Retrieve this presentation online : <a href="https://rawgit.com/Open_Up/projects_s02/master/presentation/index.html">https://rawgit.com/Open_Up/projects_s02/master/presentation/index.html</a><br/>
+And on <a href="https://github.com/Open-Up/projects_s02">GitHub</a></small>
+</p>
+</section>
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+<h2>Objectives</h2>
+<ul>
+  <li class="fragment">Presentation of project objectives</li>
+  <li class="fragment">Planning</li>
+  <li class="fragment">Evaluation</li>
+  <li class="fragment">Management expactations</li>
+  <li class="fragment">Managing your backlog</li>
+  <li class="fragment">Managing your tasks</li>
+  <li class="fragment">Weekly report</li>
+  <li class="fragment">Project list</li>
+  <li class="fragment">What to do from here ?</li>
+</ul>
+</section>
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+  <h2>Objectives</h2>
+    <ul>
+       <li class="fragment">Being able to report to a manager about my work following a method</li>
+       <li class="fragment">Being independent in my work, working only with guide lines</li>
+       <li class="fragment">Experience with OpenSource software projects</li>
+       <li class="fragment">Present my work in english</li>
+    </ul>
+</section>
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+<h2>Project planning</h2>
+<p>
+<table>
+						<thead>
+							<tr>
+								<th>Event</th>
+								<th>Date</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Course presentation</td>
+								<td>19/02</td>
+							</tr>
+							<tr>
+								<td>Final project list</td>
+								<td>04/03</td>
+							</tr>
+							<tr>
+								<td>End of project choice</td>
+								<td>07/03</td>
+							</tr>
+							<tr>
+								<td>Backlog task validation (see below) by Benoit</td>
+								<td>11/03</td>
+							</tr>
+							<tr>
+								<td>First weekly report (see below)</td>
+								<td>14/03</td>
+							</tr>
+							<tr>
+								<td>Resuts return</td>
+								<td>20/05</td>
+							</tr>
+							<tr>
+								<td>Project presentation</td>
+								<td>27/05</td>
+							</tr>
+						</tbody>
+					</table>
+</section>
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+  <section>
+    <h2>Project evaluation</h2>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Evaluated competences
+
+ - Independency   3/20
+ - Results        5/20
+ - Presentation   9/20
+ - Management     3/20 
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Independency
+
+ - 0/3 : Needs strong help technically. Do not understand the subject.
+ - 1/3 : Frequently asks for help
+ - 2/3 : Is independence
+ - 3/3 : Even takes initiatives
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Results
+
+ - 1 point on punctuality
+ - 1 point on working demonstration
+
+ - 0/3 : No results
+ - 1/3 : Partial results
+ - 3/3 : Complete results
+
+1 bonus point : Demonstrate non asked interesting capabilities
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+This evaluation point is individual
+
+ - 1 point on speech time (should be ~15 minutes)
+ - 1 point on oral fluency ( gests ? Speech fluidity ? Reads his notes ? )
+ - 2 points on english : we should easily understandable
+ - 2 points : Should be able to present technically his project
+ - 2 points : Develops his works
+ - 1 points on slides (look and integration with speech)
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+## Management
+
+ - 1 point on weekly reports
+ - 1 point on Trello backlog
+ - 1 point on Trello tasks 
+    </script>
+  </section>
+</section>
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+  <section>
+    <h2>Project management</h2>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Why ?
+
+ - see your project advancement
+ - allow me to coach you
+ - motivation
+ - better integration with your tutor
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Elements
+
+ - Backlog : Big tasks you need to tackle
+ - Tasks : small tasks that can be done by a simple guy. Several tasks compose a backlog entry.
+ - Weekly report : to OpenUp manager as well as your tutor.
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Project example
+
+```
+Linagora maintain a blog for technical blog posts from R&D teams.
+But we today are not satisfied by our current Joomla blog. We 
+need to install a new wordpress connected to Linagora LDAP for 
+posts.
+
+We want to have two sections :
+
+ - a simple blog section, on which you will be importing Joomla 
+data
+ - a *project* section.
+```
+
+    </script>
+  </section>
+</section>
+
+<section>
+  <section>
+    <h2>Backlog</h2>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## What is it ?
+
+ - a big task of your project
+ - splitable in subtask
+ - objectives you need to validate
+ - ~ 5 per projects
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Elements
+
+ - a descriptive title
+ - some short explanation
+ - a due date
+ - acceptation criteria
+ - a state :
+    - Must 
+    - Should 
+    - Could 
+    - Wont
+    - In progress 
+    - Done
+ - As comments, links to tasks (more on that later)
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Example
+
+Here is an [example of trello backlog](https://trello.com/b/tqaVikEz/sample-backlog).
+
+    </script>
+  </section>
+</section>
+
+
+<section>
+  <section>
+    <h2>Tasks</h2>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## What is it ?
+
+ - a task for one people
+ - 1 to 4 hours of work
+ - sub task of backlog entries
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Elements
+
+ - A self explainatory title
+ - The link to the backlog entry it belongs
+ - A small description
+ - Time estimation
+ - Time spent
+ - Has a owner (the guy working on it)
+ - (if applicable : review link in comments)
+ - Acceptance criteria
+ - A state :
+   - TODO 
+   - In progress 
+   - Review 
+   - DONE 
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Example
+
+Here is an [example of trello task board](https://trello.com/b/8cj2k02m/sample-task-board).
+
+    </script>
+  </section>
+</section>
+
+
+<section>
+  <section>
+    <h2>Weekly reports</h2>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Title
+
+ - The title will contain [openup] Weekly report (for filtering), team name, and contain the date formatted as day-month-year (eg : 01-03-2016)
+
+Example of valid subject :
+
+```
+[openup] Weekly report Team : "Crazy rabbits" Date : 01-03-2016
+```
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+        ## Body
+
+ - The team name
+ - The list of member
+ - The link to your github project (reminder for me)
+ - List of changes made to your backlog
+ - List of changes made to your task
+ - Your plans for the next week
+ - Difficulties you faced
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+```
+Subject : [openup] Weekly report Team : "Crazy rabbits" Date : 01-03-2016
+
+Team : Crazy rabbits
+Members : Benoit Tellier, Louis Vidal
+Github project : https://github.com/Open-Up/projects_s02
+    
+# Backlog changes
+    
+Moving *Configure a LDAP server* to DONE
+Moving *Install wordpress* to in progress
+
+# Task changes
+
+Moving *import existing users* to DONE with time h30/2h
+Moving *install MySQL* to DONE with time 2h/3h
+Adding task *Install a FTP server* to backlog *Install WordPress*
+
+# Difficulties
+    
+We faced issue with database rights but managed to solve that thanks to our tutor.
+    
+We are quite happy with our week as we managed to finish our first backlog entry and 
+did hafl of our second !
+
+# Plans for next week
+
+We plan to finish backlog entry *Install wordpress*. We also hope to achieve 
+backlog entry *Link WordPress to the LDAP*.
+    
+Regards,
+    
+The 'Crazy Rabbit' team
+```
+    </script>
+  </section>
+</section>
+
+<section>
+  <section>
+	<h1>Project list</h1>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Migration from Zimbra to OBM : provide scripts
+
+Several times a year, Linagora System Administration teams should handle migration of their clients from Zimbra to OBM. As it remains a not so common task, it has not been automated yet. Alexandra Chapellon, at the head of the franch integration team proposes you to automate this task. You should install Zimbra software stack  and populate it with contacts, mails, and events. Then install the OBM software stack. You should the write script to automate migration, and provide documentation to explain how to do it to the French team. You should provide automated and unattended extraction tools that produce ics files for calendar data, vcf for contacts, and make sure imapsync is still the  way to go when migrating emails. You will be supervised by Alexandre Chapellon.
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Document single james set up + mailet configuration
+
+JAMES is Linagora new e-mail server for OpenPaas. As todays main contributor, we would like to develop community around JAMES. One big obstacle we face is the lack of "getting started" session providing simple setup for a production ready JAMES, for someone that do not know anything about mail servers. In this project, you should configure a JAMES server so that it can be defended against Spam, Viruses, is not an open relay, verify clients authenticity, and is trusted by other mail server. You should explain in depth your choices, diagnose missing features for the JAMES team, and write some documentation. 
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Set up LDAP authentication on James + provide quota reading from LDAP
+
+JAMES is Linagora new e-mail server for OpenPaas. JAMES team at Linagora only used JAMES with locally stored user. We would llike you to deploy a James server using Linagora LDAP for authentication. You will provide your configuration, and write some Java tests for this feature. Finaly, you might contribute a plugin allowing to read user quotas from a LDAP, and tests for this feature. 
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Document production replicated settings for OpenPaas
+
+OpenPaas is a brand new Linagora product. It is an enterprise social network, with mail, contact and calendar capabilities. It uses a lot of middle-ware, for instance a MongoDB database, Redis for messages, ElasticSearch as a search engine, JAMES for mails, Cassandra for JAMES persistence. Today, the OpenPaas team lacks documentation on production ready settings for these middlewares. You are expected to experiment with these middle-ware, and provide a configuration for each one of them that is production ready, efficient, and supporting distributed environments. You are also expected to do some administrative tasks like adding and removing nodes, perform repairs, and other classical maintenance tasks. 
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Vtiger CRM
+
+You will be responsible to experiment Vtiger CRM at Linagora. You will deploy it, test it, introduce it to Linagora revevant teams and finaly migrate data from our previous CRM engine. Your instalation should use Linagora LDAP for authentication. You will be supervised by Guilhem Valentin.
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - OBM Linshare and Jabber for Open-Up team
+
+On a server given to your disposal, you will install a collaborative plateform for the Open Up students. It will be composed of a LDAP for authentication, of OBM collaborative plateform. It will rely on Jabber for instant messaging, and people will be able to share files using LinShare software. You will gain the openup.linagora.com domain name delegated and you will have to configure it for your needs.
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Script for deploying monitoring probes
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Administrative UI for visualizing OBM logs
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ -  Mail server
+
+You are the network and the system administrator of a small company. You have to provide a mail service to employees. Their informations (names, passwords) are on a LDAP server. 
+You have to set the SMTP server with Postfix, the webmail service with Roundcube and the IMAP mailboxes server Cyrus. You are also expected to configure SpamAssasin anti-spam server and ClamAV anti-virus. Your infrastucture should remain available in the case of single server failure. So you should configure load balancing, as well as distributed storage.
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - OBM VOIP
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - Unintended instalation
+
+    </script>
+  </section>
+  <section data-markdown>
+    <script type="text/template">
+ - SASL plugin for SAML
+
+    </script>
+  </section>
+</section>
+
+
+<section>
+	<h1>What to do from here ?</h1>
+        <ul>
+          <li>Form teams of 2 / 3 people</li>
+          <li>Each team choose a project</li>
+          <li>PR on https://github.com/Open-Up/projects_s02</li>
+        <ul>
+</section>
+
+
+<section>
+	<h1>Questions ?</h1>
+</section>
+
+
+
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				slideNumber: true,
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                                
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
