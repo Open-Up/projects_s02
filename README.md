@@ -281,44 +281,40 @@ Team :
 
 On a server given to your disposal, you will install a collaborative plateform for the Open Up students. It will be composed of a LDAP for authentication, of OBM collaborative plateform. It will rely on Jabber for instant messaging, and people will be able to share files using LinShare software. You will gain the openup.linagora.com domain name delegated and you will have to configure it for your needs.
 
-Keywords : Mail, DNS, OBM, LinShare, Jabber
+Keywords : Mail, DNS, OBM, LinShare, Jabber, mail
 
 Team : 
 
-### 7 Script for deploying monitoring probes
+### 7 Packages for LinShare
 
+Linshare is a collaborative software from Linagora. It allows you to share file with other people. You can manage access rights, as well as share expirency. LinShare team would like to make it more easy for the community to use its software. To do so, you will prepare packages for debian and RPM.
 
+Keywords : LinShare, packages
 
-Team : 
-
-### 8 Administrative UI for visualizing OBM logs
-
-
-
-Team : 
-
-### 9  Mail server
+### 8  Mail server
 
 You are the network and the system administrator of a small company. You have to provide a mail service to employees. Their informations (names, passwords) are on a LDAP server. 
 You have to set the SMTP server with Postfix, the webmail service with Roundcube and the IMAP mailboxes server Cyrus. You are also expected to configure SpamAssasin anti-spam server and ClamAV anti-virus. Your infrastucture should remain available in the case of single server failure. So you should configure load balancing, as well as distributed storage.
 
 Keywords : Network addressing, name resolution, OpenLDAP, Postfix, Cyrus IMAP, RoudCube, High availability, file system replication, load balancing, shared IPs.
 
-### 10 OBM VOIP
+Team : 
 
+### 9 Unintended instalation
 
+Design a fully automated installation system. A classroom with 10 identical desktops must be install with the fewer operator action as possible. The installation system allows the operator to choose an image located on a server and this image is automatically installed on the desktop. Use less media as possible : network, desktop and server only. After installation and reboot, desktop are operational.
+
+The documentation describes how to install and how to create an system image.
+
+Keywords : network boot, automation, unattended, partitionning, network file share, DHCP, NFS, Samba
 
 Team : 
 
-### 11 Unintended instalation
+### 10 Server supervision
 
+You are the system administrator managing few servers. Design an alert system to inform you when security events occur on a supervised server. Examples of alerts : too many failed connection attempts, user management files modifications, passwords changing, too easy passwords,  package installation, filesystems usage, CPU charge, opened ports, etc. Choose three priorities and for each, a way to alert the central administration server.
 
-
-Team : 
-
-### 12 SASL plugin for SAML
-
-
+Keywords : Remote logging, filesystems supervision, shell scripts writing, syslog, Nagios
 
 Team : 
 
