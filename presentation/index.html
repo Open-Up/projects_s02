@@ -490,13 +490,9 @@ On a server given to your disposal, you will install a collaborative plateform f
   </section>
   <section data-markdown>
     <script type="text/template">
- - Script for deploying monitoring probes
+ - OBM Linshare and Jabber for Open-Up team
 
-    </script>
-  </section>
-  <section data-markdown>
-    <script type="text/template">
- - Administrative UI for visualizing OBM logs
+On a server given to your disposal, you will install a collaborative plateform for the Open Up students. It will be composed of a LDAP for authentication, of OBM collaborative plateform. It will rely on Jabber for instant messaging, and people will be able to share files using LinShare software. You will gain the openup.linagora.com domain name delegated and you will have to configure it for your needs.
 
     </script>
   </section>
@@ -511,19 +507,17 @@ You have to set the SMTP server with Postfix, the webmail service with Roundcube
   </section>
   <section data-markdown>
     <script type="text/template">
- - OBM VOIP
-
-    </script>
-  </section>
-  <section data-markdown>
-    <script type="text/template">
  - Unintended instalation
 
+Design a fully automated installation system. A classroom with 10 identical desktops must be install with the fewer operator action as possible. The installation system allows the operator to choose an image located on a server and this image is automatically installed on the desktop. Use less media as possible : network, desktop and server only. After installation and reboot, desktop are operational.
+
     </script>
   </section>
   <section data-markdown>
     <script type="text/template">
- - SASL plugin for SAML
+ - Server supervision
+
+You are the system administrator managing few servers. Design an alert system to inform you when security events occur on a supervised server. Examples of alerts : too many failed connection attempts, user management files modifications, passwords changing, too easy passwords,  package installation, filesystems usage, CPU charge, opened ports, etc. Choose three priorities and for each, a way to alert the central administration server.
 
     </script>
   </section>
