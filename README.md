@@ -316,17 +316,17 @@ You are the system administrator managing few servers. Design an alert system to
 
 Keywords : Remote logging, filesystems supervision, shell scripts writing, syslog, Nagios
 
-Team : 
+Team : Les trois mousquetaires
 
 ## Teams
 
 2 or 3 people by team ...
 
- 1 Team name : Les trois mousquetaires
+ 1 Team name : 
 
- - Members : Nguyen Tuan Kien, Dang Van Dai, Hoang Quoc Hong Nhat.
- - Trello backlog : Can i fill it later?
- - Trello tasks : Can i fill it later?
+ - Members :
+ - Trello backlog : 
+ - Trello tasks :
 
  2 Team name :
 
