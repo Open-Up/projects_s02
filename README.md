@@ -322,11 +322,11 @@ Team : Les trois mousquetaires
 
 2 or 3 people by team ...
 
- 1 Team name : 
+ 1 Team name : Les trois mousquetaires
 
- - Members :
- - Trello backlog : 
- - Trello tasks :
+ - Members : Nguyen Tuan Kien, Hoang Quoc Hong Nhat, Dang Van Dai
+ - Trello backlog : Can i fill it later then send Trello links via email for u?
+ - Trello tasks : 
 
  2 Team name :
 
