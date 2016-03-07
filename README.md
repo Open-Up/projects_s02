@@ -361,9 +361,9 @@ Team :
  - Trello backlog : 
  - Trello tasks : 
 
-**7 Team name :**
+**7 Team name : Les trois mousquetaires**
 
- - Members :
+ - Members : Đặng Văn Đại, Nguyễn Tuấn Kiên, Hoàng Quốc Hồng Nhật
  - Trello backlog : 
  - Trello tasks : 
 
