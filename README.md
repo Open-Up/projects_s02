@@ -291,6 +291,8 @@ Linshare is a collaborative software from Linagora. It allows you to share file 
 
 Keywords : LinShare, packages
 
+Team : BkGirls
+
 ### 8  Mail server
 
 You are the network and the system administrator of a small company. You have to provide a mail service to employees. Their informations (names, passwords) are on a LDAP server. 
@@ -335,9 +337,9 @@ Team :
  - Trello backlog : 
  - Trello tasks : 
 
- 3 Team name :
+ 3 Team name : BkGirls
 
- - Members :
+ - Members :  Phạm Như Quỳnh, Ngô Thị Thủy, Hà Thị Hoàn
  - Trello backlog : 
  - Trello tasks : 
 
