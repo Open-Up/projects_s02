@@ -251,7 +251,7 @@ JAMES (Java Apache Mail Enterprise Server) is Linagora new e-mail server for Ope
 
 Keywords : SMTP, Spam, Viruses, SMTP relay, JAMES
 
-Team : 
+Team : JAV (JAMES-Anti-Virus)
 
 ### 3 Set up LDAP authentication on James + provide quota reading from LDAP
 
@@ -322,9 +322,9 @@ Team :
 
 2 or 3 people by team ...
 
- 1 Team name :
+ 1 Team name : JAV (JAMES-Anti-Virus)
 
- - Members :
+ - Members : Tran Trung Hieu & Nguyen Van Minh
  - Trello backlog : 
  - Trello tasks : 
 
