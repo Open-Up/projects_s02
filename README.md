@@ -330,7 +330,7 @@ Team :
 
  2 Team name : redpill
 
- - Members :
+ - Members : Le Cong Tuan (github.com/tuanict), Pham Trung Dung (github.com/RockyMeadow), Hoang Minh Tuan (github.com/tmh1999)
  - Trello backlog : 
  - Trello tasks : 
 
