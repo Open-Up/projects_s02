@@ -369,7 +369,7 @@ Team :
 
 **8 Team name :**
 
- - Members :
+ - Members : Trần Xuân Giáp (https://github.com/txgvnn), Hoàng Thành Công (https://github.com/hoangcongst)
  - Trello backlog : 
  - Trello tasks : 
 
