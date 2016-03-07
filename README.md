@@ -328,9 +328,10 @@ Team :
  - Trello backlog : 
  - Trello tasks : 
 
- 2 Team name :
+ 2 Team name : redpill
 
- - Members :
+ - Members : Le Cong Tuan (github.com/tuanict), Pham Trung Dung (github.com/RockyMeadow), Hoang Minh Tuan (github.com/tmh1999)
+ - Project : 4 Document production replicated settings for OpenPaas
  - Trello backlog : 
  - Trello tasks : 
 
