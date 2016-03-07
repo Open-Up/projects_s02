@@ -351,7 +351,7 @@ Team :
 
  5 Team name :
 
- - Members :
+ - Members : Phạm Xuân Tường, Bùi Xuân Thanh, Trần Tiến Hiển
  - Trello backlog : 
  - Trello tasks : 
 
