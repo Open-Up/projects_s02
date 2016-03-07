@@ -324,62 +324,62 @@ Team :
 
 2 or 3 people by team ...
 
-** 1 Team name : JAV (JAMES-Anti-Virus)**
+**1 Team name : JAV (JAMES-Anti-Virus)**
 
  - Members : Tran Trung Hieu & Nguyen Van Minh
  - Trello backlog : 
  - Trello tasks : 
 
-** 2 Team name : redpill**
+**2 Team name : redpill**
 
  - Members : Le Cong Tuan (github.com/tuanict), Pham Trung Dung (github.com/RockyMeadow), Hoang Minh Tuan (github.com/tmh1999)
  - Project : 4 Document production replicated settings for OpenPaas
  - Trello backlog : 
  - Trello tasks : 
 
-** 3 Team name : BkGirls**
+**3 Team name : BkGirls**
 
  - Members :  Phạm Như Quỳnh, Ngô Thị Thủy, Hà Thị Hoàn
  - Trello backlog : 
  - Trello tasks : 
 
-** 4 Team name :**
+**4 Team name :**
 
  - Members : Tuấn Kiên Nguyễn, Đặng Văn Đại
  - Trello backlog : 
  - Trello tasks : 
 
-** 5 Team name :**
+**5 Team name :**
 
  - Members : Phạm Xuân Tường, Bùi Xuân Thanh, Trần Tiến Hiển
  - Trello backlog : 
  - Trello tasks : 
 
-**Good guys**
+**6 Team name : Good guys**
 
  - Members : Cuong Nguyen Ngoc, Duy Le Xuan
  - Trello backlog : 
  - Trello tasks : 
 
-** 7 Team name :**
+**7 Team name :**
 
  - Members :
  - Trello backlog : 
  - Trello tasks : 
 
-** 8 Team name :**
+**8 Team name :**
 
  - Members :
  - Trello backlog : 
  - Trello tasks : 
 
-** 9 Team name :**
+**9 Team name :**
 
  - Members :
  - Trello backlog : 
  - Trello tasks : 
 
-** 10 Team name :**
+**10 Team name :**
 
  - Members :
  - Trello backlog : 
