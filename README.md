@@ -355,9 +355,9 @@ Team :
  - Trello backlog : 
  - Trello tasks : 
 
- 6 Team name :
+ 6 Team name : Good guys
 
- - Members :
+ - Members : Cuong Nguyen Ngoc, Duy Le Xuan
  - Trello backlog : 
  - Trello tasks : 
 
