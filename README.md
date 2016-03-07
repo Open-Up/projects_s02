@@ -267,7 +267,7 @@ OpenPaas is a brand new Linagora product. It is an enterprise social network, wi
 
 Keywords : OpenPaas, MongoDB, Redis, ElasticSearch, JAMES, Cassandra
 
-Team : 
+Team : redpill (2)
 
 ### 5 Vtiger CRM
 
