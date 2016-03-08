@@ -367,7 +367,7 @@ Team :
  - Trello backlog : 
  - Trello tasks : 
 
-**8 Team name :**
+**8 Team name : LibreSys**
 
  - Members : Trần Xuân Giáp (https://github.com/txgvnn), Hoàng Thành Công (https://github.com/hoangcongst)
  - Trello backlog : 
