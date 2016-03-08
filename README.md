@@ -345,7 +345,7 @@ Team :
 
 **4 Team name :**
 
- - Members : Tuấn Kiên Nguyễn, Đặng Văn Đại
+ - Members : 
  - Trello backlog : 
  - Trello tasks : 
 
