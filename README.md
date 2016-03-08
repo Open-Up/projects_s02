@@ -310,7 +310,7 @@ The documentation describes how to install and how to create an system image.
 
 Keywords : network boot, automation, unattended, partitionning, network file share, DHCP, NFS, Samba
 
-Team : Team n°8 : Unintended installation
+Team : LibreSys
 
 ### 10 Server supervision
 
