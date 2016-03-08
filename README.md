@@ -283,7 +283,7 @@ On a server given to your disposal, you will install a collaborative plateform f
 
 Keywords : Mail, DNS, OBM, LinShare, Jabber, mail
 
-Team : 
+Team : Liners
 
 ### 7 Packages for LinShare
 
@@ -373,7 +373,7 @@ Team :
  - Trello backlog : 
  - Trello tasks : 
 
-**9 Team name :**
+**9 Team name : Liners**
 
  - Members : Khuat Duy Toan,Ha Minh Quyet,Pham Van Viet
  - Trello backlog : 
