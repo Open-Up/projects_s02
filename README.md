@@ -375,7 +375,7 @@ Team :
 
 **9 Team name :**
 
- - Members :
+ - Members : Khuat Duy Toan,Ha Minh Quyet,Pham Van Viet
  - Trello backlog : 
  - Trello tasks : 
 
