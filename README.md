@@ -343,9 +343,9 @@ Team : Les trois mousquetaires
  - Trello backlog : 
  - Trello tasks : 
 
-**4 Team name :**
+**4 Team name : La belle et la bête**
 
- - Members : 
+ - Members : Nguyễn Trọng Quý(https://github.com/quy267), Vũ Quang Đại, Phùng Thế Hoàng
  - Trello backlog : 
  - Trello tasks : 
 
