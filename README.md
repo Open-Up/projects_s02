@@ -357,7 +357,7 @@ Team : Les trois mousquetaires
 
 **6 Team name : Good guys**
 
- - Members : Cuong Nguyen Ngoc, Duy Le Xuan
+ - Members : Cuong Nguyen Ngoc, Duy Le Xuan, Quy Nguyen Trong
  - Trello backlog : 
  - Trello tasks : 
 
