@@ -259,7 +259,7 @@ JAMES (Java Apache Mail Enterprise Server) is Linagora new e-mail server for Ope
 
 Keywords : JAMES, LDAP, IMAP quotas
 
-Team : 
+Team : Good guys
 
 ### 4 Document production replicated settings for OpenPaas
 
