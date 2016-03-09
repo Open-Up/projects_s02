@@ -300,7 +300,7 @@ You have to set the SMTP server with Postfix, the webmail service with Roundcube
 
 Keywords : Network addressing, name resolution, OpenLDAP, Postfix, Cyrus IMAP, RoudCube, High availability, file system replication, load balancing, shared IPs.
 
-Team : Team 5
+Team : Sky
 
 ### 9 Unintended instalation
 
@@ -352,7 +352,7 @@ Team : Les trois mousquetaires
  - Trello backlog : 
  - Trello tasks : 
 
-**5 Team name :**
+**5 Team name : Sky**
 
  - Members : Phạm Xuân Tường, Bùi Xuân Thanh, Trần Tiến Hiển
  - Project : 8 Mail server
