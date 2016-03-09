@@ -275,7 +275,7 @@ You will be responsible to experiment Vtiger CRM at Linagora. You will deploy it
 
 Keywords : VtigerCRM, Nginx, OpenLDAP
 
-Team : 
+Team : La belle et la bête
 
 ### 6 OBM Linshare and Jabber for Open-Up team
 
