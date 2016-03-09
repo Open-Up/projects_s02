@@ -327,6 +327,7 @@ Team : Les trois mousquetaires
 **1 Team name : JAV (JAMES-Anti-Virus)**
 
  - Members : Tran Trung Hieu & Nguyen Van Minh
+ - Project : 2 Document single james set up + mailet configuration
  - Trello backlog : 
  - Trello tasks : 
 
@@ -340,12 +341,14 @@ Team : Les trois mousquetaires
 **3 Team name : BkGirls**
 
  - Members :  Phạm Như Quỳnh, Ngô Thị Thủy, Hà Thị Hoàn
+ - Project : 7 Packages for LinShare
  - Trello backlog : 
  - Trello tasks : 
 
 **4 Team name : La belle et la bête**
 
  - Members : Nguyễn Trọng Quý(https://github.com/quy267), Vũ Quang Đại, Phùng Thế Hoàng
+ - Project : 5 Vtiger CRM
  - Trello backlog : 
  - Trello tasks : 
 
@@ -358,24 +361,28 @@ Team : Les trois mousquetaires
 **6 Team name : Good guys**
 
  - Members : Cuong Nguyen Ngoc, Duy Le Xuan, Quy Nguyen Trong
+ - Project : 3 Set up LDAP authentication on James
  - Trello backlog : 
  - Trello tasks : 
 
 **7 Team name : Les trois mousquetaires**
 
  - Members : Đặng Văn Đại, Nguyễn Tuấn Kiên, Hoàng Quốc Hồng Nhật
+ - Project : 10 Server supervision
  - Trello backlog : 
  - Trello tasks : 
 
 **8 Team name : LibreSys**
 
  - Members : Trần Xuân Giáp (https://github.com/txgvnn), Hoàng Thành Công (https://github.com/hoangcongst)
+ - Project : 9 Unintended instalation
  - Trello backlog : 
  - Trello tasks : 
 
 **9 Team name : Liners**
 
  - Members : Khuat Duy Toan,Ha Minh Quyet,Pham Van Viet
+ - Project : 6 OBM Linshare and Jabber for Open-Up team
  - Trello backlog : 
  - Trello tasks : 
 
