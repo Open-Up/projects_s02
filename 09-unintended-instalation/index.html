@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Up</title>
+
+		<meta name="description" content="Open Up : 9 Unintended instalation">
+		<meta name="author" content="Tellier Benoit">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+
+<section>
+<img data-src="img/large.png"><br/>
+<img data-src="img/openup.png">
+
+<h2>9 Unintended instalation</h2>
+
+<p>Team : <a>LibreSys</a></p>
+
+<p><small>
+Retrieve online : <a href="https://rawgit.com/index.html">?index.html</a><br/>
+And on <a href="https://github.com/">?GitHub</a></small>
+</p>
+</section>
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+<h2>Team: LibreSys</h2>
+<ul>
+  <li class="fragment">Hoàng Thành Công &nbsp; <a href="https://github.com/hoangcongst">github.com/hoangcongst</a></li>
+  <li class="fragment">Trần Xuân Giáp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/txgvnn">github.com/txgvnn</a></li>
+</ul>
+</section>
+
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+	<h2>What is "Network booting"?</h2>
+	<ul>
+	<li class="fragment"> Boot via Hardisk</li>
+	<li class="fragment"> Boot via CD/DVD</li>
+	<li class="fragment"> Boot via USB</li>
+	<li class="fragment"> Boot via LAN</li>
+</ul>
+</section>
+
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+  <section>
+    <h1>iPXE</h1>
+  </section>
+  <section>
+    <h2>What is iPXE ?</h2>
+    <img data-src="img/ipxe.png">
+	<p>iPXE is the leading open source network boot firmware.</p>
+	<p>It provides a full PXE implementation</p>
+  </section>
+
+  <section>
+    <h2>FEATURES?</h2>
+    <ul>
+		<li class="fragment">boot from a wide-area network</li>
+		<li class="fragment">boot from a web server via HTTP</li>
+		<li class="fragment">control the boot process with a script</li>
+		<li class="fragment">...</li>
+
+    </ul>
+  </section>
+
+  <section>
+    <h2>How to setup boot from a wide-area network</h2>
+	<ul>
+		<li> Server</li>
+		<p class="fragment">-> Install DHCP server</p>
+		<p class="fragment">-> Install TFTP server </p>
+		<p class="fragment">-> Provide the boot image</p>
+		<li> Client</li>
+		<p class="fragment">-> Activate PXE boot</p>
+	</ul>
+	</section>
+
+  <section>
+    <h2>Configure DHCP server</h2>
+       <pre><code>default-lease-time 600;
+max-lease-time 7200;
+allow booting;
+
+subnet 192.168.0.0 netmask 255.255.255.0 {
+  range 192.168.0.3 192.168.0.253;
+  option broadcast-address 192.168.0.255;
+  option routers 192.168.0.1;             # our router
+  option domain-name-servers 192.168.0.1; # our router, again
+  filename "pxelinux.0"; # (this we will provide later)
+}
+
+group {
+  next-server 192.168.0.2;                # our Server
+  host tftpclient {
+    filename "pxelinux.0"; # (this we will provide later)
+  }
+}</code></pre>
+  </section>
+
+  <section>
+    <h2>Configuration TFTP server</h2>
+       <pre><code>
+$wget $MIRROR_DEBIAN/$PATH/netboot.tar.gz
+
+$tar -vxzf netboot.tar.gz -C  /srv/tftp
+
+$ls -1 /srv/tftp
+debian-installer
+ldlinux.c32
+pxelinux.0
+pxelinux.cfg
+version.info
+
+$sudo chmod -R a+r /srv/tftp/
+</code></pre>
+  </section>
+  <section>
+    <h2>How to boot from a webserver via HTTP</h2>
+	<ul>
+		<li> Server</li>
+		<p class="fragment">-> Install nginx/apache server </p>
+		<p class="fragment">-> Provide the boot image</p>
+		<li> Client</li>
+		<p class="fragment">-> Activate PXE boot</p>
+	</ul>
+
+  </section>
+  <section>
+    <h2>Configure WEB server</h2>
+       <pre><code>
+$wget $MIRROR_DEBIAN/$PATH-hd-media/vmlinux -O /var/www/html/
+
+$wget $MIRROR_DEBIAN/$PATH-hd-media/initrd.gz -O /var/www/html/
+
+$cat > /var/www/html/boot << EOF
+#!ipxe
+kernel linux bootfile=http://$WEBSERVER/boot fastboot initrd=initrd.gz
+initrd initrd.gz
+boot
+EOF
+</code></pre>
+  </section>
+
+
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+
+<section>
+  <section>
+    <h2>Booting</h2>
+      <pre><code>iPXE>dhcp  #connect network</code></pre>
+      <pre><code>iPXE>chain http://ip-webserver/boot</code></pre>
+  </section>
+
+  </section>
+
+  <section>
+	<video width="100%" height="100%" controls>
+	<source src="img/out.ogv" type="video/ogg">
+	Your browser does not support the video tag.
+	</video>
+  </section>
+
+<!--------------------------------------------------
+----------------------------------------------------
+================================================----
+NEW SECTION NEW SECTION NEW SECTION NEW SECTION=----
+================================================----
+----------------------------------------------------
+---------------------------------------------------->
+<section>
+	<h1>DEMO</h1>
+	<img data-src="img/ipxe.png" widht=200 height=200>
+</section>
+
+
+<section>
+	<h1>Questions ?</h1>
+        <img data-src="img/ipxe.png" widht=200 height=200>
+</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				slideNumber: true,
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
